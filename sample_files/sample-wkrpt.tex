@@ -4,7 +4,7 @@
 
 % We will use some packages to add functionality
 \usepackage{graphicx} % Include graphic importing
-
+\usepackage{ulem} % Strikethroughs
 % Now we will begin writing the document.
 \begin{document}
 
@@ -127,18 +127,20 @@ This section mostly is just a table.
     \end{table}
 
 \section{Sample Figures}
-Figure \ref{fig:knuth} shows Donald Knuth. \cite{ref:donpicture}
-\begin{figure}
-    \centering
-    \includegraphics[height=3cm]{test.jpg}
-    \caption{Mr. \TeX{} himself \cite{ref:latex2e}}
-    \label{fig:knuth}
-\end{figure}
+    \subsection{Knuth}
+        \subsubsection{Picture}
+            Figure \ref{fig:knuth} shows Donald Knuth. \cite{ref:donpicture}
+            \begin{figure}
+                \centering
+                \includegraphics[height=3cm]{test.jpg}
+                \caption{Mr. \TeX{} himself }
+                \label{fig:knuth}
+            \end{figure}
 
 \section{TODO}
-This is an itemized list of things that need doing in the .cls file.
+This is an itemized list of things that need doing in the .cls file. \cite{ref:latex2e}
 \begin{itemize}
-    \item Numbering of sections $1 \rightarrow 1.0$
+    \item \sout{Numbering of sections $1 \rightarrow 1.0$} Done
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
