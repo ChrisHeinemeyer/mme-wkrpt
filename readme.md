@@ -2,7 +2,7 @@
 This is my work term report repo. It is based on Casey Banner's [uw-wkrpt repo](https://github.com/kcbanner/uw-wkrpt). If you are in MME and want to improve it, please feel free to make a pull request.
 
 
-#How-To
+# How-To
 First, you need to have pdflatex and latexmk installed.
 
 
