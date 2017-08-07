@@ -5,7 +5,6 @@
 % We will use some packages to add functionality
 \usepackage{graphicx} % Include graphic importing
 \usepackage{ulem} % Strikethroughs
-% Now we will begin writing the document.
 \begin{document}
 
 %% First we, should create a title page.  This is done below:
@@ -141,6 +140,8 @@ This section mostly is just a table.
 This is an itemized list of things that need doing in the .cls file. \cite{ref:latex2e}
 \begin{itemize}
     \item \sout{Numbering of sections $1 \rightarrow 1.0$} Done
+    \item Only one .cls file in main directory. 
+    \item Appendix title  : add hyphen or colon
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -159,8 +160,7 @@ This is an itemized list of things that need doing in the .cls file. \cite{ref:l
 \appendix
 
 \section{Test}\label{app:test}
-This is a test appendix. It has a label and everything.
-
+This is a test appendix. It has a label and everything. The label says \ref{app:test}
 \end{singlespacing}
 
 \end{document}

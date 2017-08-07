@@ -321,7 +321,9 @@
     \renewcommand{\@secdotzeroend}[1]{}
     }{}%
   \ifthenelse{\boolean{uwwkrpt@ece} \or \boolean{uwwkrpt@se}}
-    {\renewcommand{\@appendixtitle}{Appendix }}{}
+    %{\renewcommand{\@appendixtitle}{Appendix }}{}
+    {\renewcommand{\@appendixtitle}{\appendixname~\thesection. }}{}
+
   \appendix@rig%
 }
 \newcommand{\backmatter}{%
