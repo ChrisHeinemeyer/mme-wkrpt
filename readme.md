@@ -16,7 +16,7 @@ To create the .pdf of your work term report, run
 sh pdfer.sh
 ```
 
-#Using the .cls File in Another Directory
+# Using the .cls File in Another Directory
 ```bash
 #/usr/share/texmf by default in Ubuntu
 sudo mkdir /usr/share/texmf/tex/latex/local
@@ -33,7 +33,7 @@ kpsewhich uw-wkrpt.cls
 # This should yield /usr/share/textmf/tex/latex/local/uw-wkrpt.cls
 ```
 
-#Making Changes to uw-wkrpt.cls
+# Making Changes to uw-wkrpt.cls
 If you want to make changes to uw-wkrpt.cls and apply them so that you can use it anywhere, simply run
 
 ```bash
