@@ -209,7 +209,7 @@
   \@@date \par\noindent%
   \ifthenelse{\boolean{uwwkrpt@se}}
     {\@chair, Director\\*\@chairaddress\par\noindent}%
-    {\@chair, Chair\\*\@chairaddress\par\noindent}%
+    {\@chair, Director\\*\@chairaddress\par\noindent}%
   Dear \@chair,%
   \ifthenelse{\boolean{uwwkrpt@se}}
     {\par}
