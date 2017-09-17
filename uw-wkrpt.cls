@@ -244,7 +244,8 @@
   \indent\@@author\\
   \indent Student ID: \@uwid}%
   {Sincerely,\\*%
-  \rule{0in}{0.3in}\\*{\hrule \@width 3in}%
+  \includegraphics[height=1.5\baselineskip]{signature} \\
+  %\rule{0in}{0.3in}\\*{\hrule \@width 3in}%
   \noindent\@@author, \@uwid
   \par\noindent
   Encl.}%

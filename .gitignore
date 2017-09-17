@@ -3,7 +3,7 @@
 # Ignore generated files
 uw-ece-workreport.cls
 uw-wkrpt.drv
-*.pdf
+sample-wkrpt.pdf
 
 # Taken from https://github.com/github/gitignore/blob/master/LaTeX.gitignore
 *.acn
