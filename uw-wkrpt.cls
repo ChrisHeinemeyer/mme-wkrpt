@@ -219,10 +219,10 @@
   \ifthenelse{\boolean{uwwkrpt@ece}
               \or \boolean{uwwkrpt@math}
               \or \boolean{uwwkrpt@se}}
-    {I also confirm that this report has not been previously submitted
-    for academic credit at this or any other academic institution.}
     {This report was written entirely by me and has not received
     any previous academic credit at this or any other institution.}
+    {I also confirm that this report has not been previously submitted
+    for academic credit at this or any other academic institution.}
   \ifthenelse{\boolean{uwwkrpt@math}}{%
     \par The Faculty of Mathematics requests that you evaluate this report
     for command of topic and technical content/analysis.  Following your
