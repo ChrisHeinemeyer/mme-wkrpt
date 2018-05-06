@@ -18,27 +18,17 @@ sh pdfer.sh
 
 # Using the .cls File in Another Directory
 ```bash
-#/usr/share/texmf by default in Ubuntu
-sudo mkdir /usr/share/texmf/tex/latex/local
-sudo chmod 775 /usr/share/texmf/tex/latex/local
-cp uw-wkrpt.cls /usr/share/texmf/tex/latex/local
+cd mme_wkrpt
+mkdir -p  ~/texmf/tex/latex
+ln -s uw-wkrpt.cls ~/texmf/tex/latex/uw-wkrpt.cls
 
 #Add the class to TeX's database of file locations
-texhash
+texhash ~/texmf
 
 #Check to see if TeX knows about it
 #First rename uw-wkrpt in the pwd
 mv uw-wkrpt.cls uw-wkrpt.cls.bak
 kpsewhich uw-wkrpt.cls
-# This should yield /usr/share/textmf/tex/latex/local/uw-wkrpt.cls
+# This should yieldl ~/texmf/tex/latex/uw-wkrpt.cls
 ```
 
-# Making Changes to uw-wkrpt.cls
-If you want to make changes to uw-wkrpt.cls and apply them so that you can use it anywhere, simply run
-
-```bash
-sh copy.sh
-```
-
-I'm not sure what the best way is to keep the version of the uw-wkrpt.cls file in the git repo and the TeX version the same. 
-Please comment ideas under Issue #3. 

@@ -1,5 +1,5 @@
 #!/bin/sh
-latexmk -f -pdf
+yes "" | latexmk -f -pdf
 rm *.aux
 rm *.bbl
 rm *.blg
